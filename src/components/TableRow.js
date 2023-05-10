@@ -4,7 +4,7 @@ const TableRow = (props) => {
    const allTableRow = props.userData.map((elem) => {
          return (
            <tr>
-               <td> {elem.cmp} </td>
+               <td> {elem.nam} </td>
                <td> {elem.cty} </td>
                <td> {elem.ctc} </td>
            </tr>

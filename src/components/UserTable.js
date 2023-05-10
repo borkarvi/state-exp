@@ -4,44 +4,43 @@ import './main.css';
 const UserTable = () => {
   const loadData = [
     {
-       cmp: 'Alfreds Futterkiste',
-       cty: 'Maria Anders',
+       nam: 'Vivek',
+       cty:  9022051170,
        ctc: 'Germany'
     },
     {
-      cmp: 'Centro comercial Moctezuma',
-      cty: 'Francisco Chang',
+      nam: 'Pallavi',
+      cty:  9370043315,
       ctc: 'Mexico'
     },
     {
-      cmp: 'Ernst Handel',
-      cty: 'Roland Mendel',
+      nam: 'SWati',
+      cty: 6647783456,
       ctc: 'Austria'
     },
     {
-      cmp: 'Island Trading',
-      cty: 'Helen Bennett',
+      nam: 'Vishal',
+      cty: 7890123456,
       ctc: 'UK'
     },
     {
-      cmp: 'Laughing Bacchus Winecellars',
-      cty: 'Yoshi Tannamuri',
+      nam: 'Sakshi',
+      cty: 34512678923,
       ctc: 'Canada'
     },
     {
-      cmp: 'Magazzini Alimentari Riuniti',
-      cty: 'Giovanni Rovelli',
+      nam: 'Kartik',
+      cty: 7456238910,
       ctc: 'Italy'
     }
 ];
     const [userData , setuserData] = useState(loadData)
   return(
      <div>
-          <button> newData </button>
       <table>
         <thead>
         <tr>
-          <th>Company</th>
+          <th>Name</th>
           <th>Contact</th>
           <th>Country</th>
         </tr>
