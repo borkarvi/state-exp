@@ -7,6 +7,8 @@ const TableRow = (props) => {
                <td> {elem.nam} </td>
                <td> {elem.cty} </td>
                <td> {elem.ctc} </td>
+               <td> {elem.cmp} </td>
+               <td> {elem.crs} </td>
            </tr>
         );
    });
